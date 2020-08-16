@@ -3,6 +3,7 @@ package _07_onetomany_mapping.model;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "user_entity7")
@@ -17,7 +18,7 @@ public class UserEntity7 {
     @OneToMany
     @JoinTable(name = "user_vehicle", joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "vehicle_id"))
-    private Collection<VehicleEntity7> vehicles = new ArrayList<VehicleEntity7>();
+    private List<VehicleEntity7> vehicles = new ArrayList<VehicleEntity7>();
 
     public int getUserId() {
         return userId;
@@ -35,11 +36,11 @@ public class UserEntity7 {
         this.userName = userName;
     }
 
-    public Collection<VehicleEntity7> getVehicles() {
+    public List<VehicleEntity7> getVehicles() {
         return vehicles;
     }
 
-    public void setVehicles(Collection<VehicleEntity7> vehicles) {
+    public void setVehicles(List<VehicleEntity7> vehicles) {
         this.vehicles = vehicles;
     }
 

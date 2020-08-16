@@ -11,6 +11,10 @@ public class VehicleEntity7 {
 
     private String vehicleName;
 
+    //we have defined onetomany in user entity. we also define manytoone because if we have vehicle object but we want to it's user info. so we have to define reverse relation.
+    @ManyToOne
+    private UserEntity7 user;
+
     public int getVehicleId() {
         return vehicleId;
     }
@@ -25,6 +29,14 @@ public class VehicleEntity7 {
 
     public void setVehicleName(String vehicleName) {
         this.vehicleName = vehicleName;
+    }
+
+    public UserEntity7 getUser() {
+        return user;
+    }
+
+    public void setUser(UserEntity7 user) {
+        this.user = user;
     }
 
     @Override

@@ -24,11 +24,15 @@ public class HibernateTest07 {
 
         VehicleEntity7 vehicle1 = new VehicleEntity7();
         vehicle1.setVehicleName("vehicle1");
-        user1.getVehicles().add(vehicle1);
+
 
         VehicleEntity7 vehicle2 = new VehicleEntity7();
         vehicle2.setVehicleName("vehicle2");
+
+        user1.getVehicles().add(vehicle1);
         user1.getVehicles().add(vehicle2);
+        vehicle1.setUser(user1);
+        vehicle2.setUser(user1);
 
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
