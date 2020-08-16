@@ -1,0 +1,5 @@
+Why did we use mappedBy?
+we don't want two difference relation table in bidirectional relations.
+
+mappedBy provides only one relation. mappedBy removed following table
+user_id  vehicle_id

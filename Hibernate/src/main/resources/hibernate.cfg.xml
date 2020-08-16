@@ -42,8 +42,12 @@
         <!--<mapping class="_05_lazy_eager.model.UserEntity5Lazy"/>-->
         <!--<mapping class="_06_onetoone_mapping.model.UserEntity6"/>-->
         <!--<mapping class="_06_onetoone_mapping.model.VehicleEntity6"/>-->
-        <mapping class="_07_onetomany_mapping.model.UserEntity7"/>
-        <mapping class="_07_onetomany_mapping.model.VehicleEntity7"/>
+        <!--<mapping class="_07_onetomany_mapping.entity.UserEntity7"/>-->
+        <!--<mapping class="_07_onetomany_mapping.entity.VehicleEntity7"/>-->
+        <!--<mapping class="_08_onetomany_mapping_mappedBy.entity.VehicleEntity8"/>-->
+        <!--<mapping class="_08_onetomany_mapping_mappedBy.entity.UserEntity8"/>-->
+        <mapping class="_09_manytomany_mapping.entity.UserEntity9"/>
+        <mapping class="_09_manytomany_mapping.entity.VehicleEntity9"/>
 
     </session-factory>
 

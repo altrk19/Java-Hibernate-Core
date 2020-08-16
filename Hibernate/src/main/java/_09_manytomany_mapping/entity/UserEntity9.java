@@ -1,13 +1,12 @@
-package _07_onetomany_mapping.model;
+package _09_manytomany_mapping.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Entity
-@Table(name = "user_entity7")
-public class UserEntity7 {
+@Table(name = "user_entity9")
+public class UserEntity9 {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,10 +14,8 @@ public class UserEntity7 {
 
     private String userName;
 
-    @OneToMany
-    @JoinTable(name = "user_vehicle", joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "vehicle_id"))
-    private List<VehicleEntity7> vehicles = new ArrayList<VehicleEntity7>();
+    @ManyToMany
+    private List<VehicleEntity9> vehicleMappedBy = new ArrayList<VehicleEntity9>();
 
     public int getUserId() {
         return userId;
@@ -36,20 +33,20 @@ public class UserEntity7 {
         this.userName = userName;
     }
 
-    public List<VehicleEntity7> getVehicles() {
-        return vehicles;
+    public List<VehicleEntity9> getVehicles() {
+        return vehicleMappedBy;
     }
 
-    public void setVehicles(List<VehicleEntity7> vehicles) {
-        this.vehicles = vehicles;
+    public void setVehicles(List<VehicleEntity9> vehicleMappedBy) {
+        this.vehicleMappedBy = vehicleMappedBy;
     }
 
     @Override
     public String toString() {
-        return "UserEntity7{" +
+        return "UserEntity9{" +
                 "userId=" + userId +
                 ", userName='" + userName + '\'' +
-                ", vehicles=" + vehicles +
+                ", vehicles=" + vehicleMappedBy +
                 '}';
     }
 }

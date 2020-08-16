@@ -1,13 +1,14 @@
-package _07_onetomany_mapping.test;
+package _09_manytomany_mapping.test;
 
-import _07_onetomany_mapping.entity.UserEntity7;
-import _07_onetomany_mapping.entity.VehicleEntity7;
+import _08_onetomany_mapping_mappedBy.entity.UserEntity8;
+import _09_manytomany_mapping.entity.UserEntity9;
+import _09_manytomany_mapping.entity.VehicleEntity9;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateTest07 {
+public class HibernateTest09 {
 
     private static SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 
@@ -17,22 +18,20 @@ public class HibernateTest07 {
     }
 
     private static void insertUser() {
-        UserEntity7 user1 = new UserEntity7();
+        UserEntity9 user1 = new UserEntity9();
         user1.setUserName("Ali");
 
-        VehicleEntity7 vehicle1 = new VehicleEntity7();
+        VehicleEntity9 vehicle1 = new VehicleEntity9();
         vehicle1.setVehicleName("vehicle1");
 
 
-        VehicleEntity7 vehicle2 = new VehicleEntity7();
+        VehicleEntity9 vehicle2 = new VehicleEntity9();
         vehicle2.setVehicleName("vehicle2");
 
         user1.getVehicles().add(vehicle1);
         user1.getVehicles().add(vehicle2);
-
-        //ManyToOne
-        vehicle1.setUser(user1);
-        vehicle2.setUser(user1);
+        vehicle1.getUserList().add(user1);
+        vehicle2.getUserList().add(user1);
 
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
@@ -54,7 +53,7 @@ public class HibernateTest07 {
         }
 
         session.beginTransaction();
-        UserEntity7 user = session.get(UserEntity7.class, 1);
+        UserEntity9 user = session.get(UserEntity9.class, 1);
         System.out.println(user);
         session.close();
     }

@@ -1,4 +1,4 @@
-package _07_onetomany_mapping.model;
+package _07_onetomany_mapping.entity;
 
 import javax.persistence.*;
 
