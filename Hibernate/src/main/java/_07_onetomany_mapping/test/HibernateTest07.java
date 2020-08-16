@@ -1,13 +1,15 @@
-package _03_hashset.test;
+package _07_onetomany_mapping.test;
 
-import _03_hashset.entity.AddressEntity3;
-import _03_hashset.entity.UserEntity3;
+import _06_onetoone_mapping.model.UserEntity6;
+import _06_onetoone_mapping.model.VehicleEntity6;
+import _07_onetomany_mapping.model.UserEntity7;
+import _07_onetomany_mapping.model.VehicleEntity7;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateTest03 {
+public class HibernateTest07 {
 
     private static SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 
@@ -17,40 +19,38 @@ public class HibernateTest03 {
     }
 
     private static void insertUser() {
-        UserEntity3 user = new UserEntity3();
-        user.setUserName("ibrahim");
+        UserEntity7 user1 = new UserEntity7();
+        user1.setUserName("Ali");
 
-        AddressEntity3 address1 = new AddressEntity3();
-        address1.setStreet("Street Name");
-        address1.setCity("City Name");
-        address1.setPostCode("postcode");
+        VehicleEntity7 vehicle1 = new VehicleEntity7();
+        vehicle1.setVehicleName("vehicle1");
+        user1.getVehicles().add(vehicle1);
 
-        AddressEntity3 address2 = new AddressEntity3();
-        address2.setStreet("Street Name 2");
-        address2.setCity("City Name 2");
-        address2.setPostCode("postcode 2");
-
-        user.getListOfAddresses().add(address1);
-        user.getListOfAddresses().add(address2);
+        VehicleEntity7 vehicle2 = new VehicleEntity7();
+        vehicle2.setVehicleName("vehicle2");
+        user1.getVehicles().add(vehicle2);
 
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        session.save(user);
+        session.save(user1);
+        session.save(vehicle1);
+        session.save(vehicle2);
+
         session.getTransaction().commit();
         session.close();
     }
 
     private static void retrieveUser() {
         Session session;
-        try{
+        try {
             session = sessionFactory.getCurrentSession();
-        } catch (HibernateException ex){
+        } catch (HibernateException ex) {
             System.err.println("error occurred");
             return;
         }
 
         session.beginTransaction();
-        UserEntity3 user = session.get(UserEntity3.class, 1);
+        UserEntity7 user = session.get(UserEntity7.class, 1);
         System.out.println(user);
         session.close();
     }

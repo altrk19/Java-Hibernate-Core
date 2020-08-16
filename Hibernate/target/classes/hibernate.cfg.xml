@@ -36,10 +36,14 @@
 
         <!--<mapping class="_01_insert_retrieve.model.UserEntity1"/>-->
         <!--<mapping class="_02_embedded.model.UserEntity2"/>-->
-       <!-- <mapping class="_03_hashset.entity.UserEntity3"/>-->
-       <!-- <mapping class="_04_collection.entity.UserEntity4"/>-->
-        <mapping class="_05_lazy_eager.model.UserEntity5Eager"/>
-        <mapping class="_05_lazy_eager.model.UserEntity5Lazy"/>
+        <!-- <mapping class="_03_hashset.entity.UserEntity3"/>-->
+        <!-- <mapping class="_04_collection.entity.UserEntity4"/>-->
+        <!--<mapping class="_05_lazy_eager.model.UserEntity5Eager"/>-->
+        <!--<mapping class="_05_lazy_eager.model.UserEntity5Lazy"/>-->
+        <!--<mapping class="_06_onetoone_mapping.model.UserEntity6"/>-->
+        <!--<mapping class="_06_onetoone_mapping.model.VehicleEntity6"/>-->
+        <mapping class="_07_onetomany_mapping.model.UserEntity7"/>
+        <mapping class="_07_onetomany_mapping.model.VehicleEntity7"/>
 
     </session-factory>
 
