@@ -36,6 +36,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_05_proxy_objects.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_01_insert_retrieve\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
@@ -44,7 +47,7 @@
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateTest01">
+  <component name="RunManager" selected="Application.HibernateTest05">
     <configuration name="HibernateTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_insert_retrieve.test.HibernateTest01" />
       <module name="Hibernate" />
@@ -97,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HibernateTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_lazy_eager.test.HibernateTest05" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_05_lazy_eager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateTest05" />
         <item itemvalue="Application.HibernateTest01" />
         <item itemvalue="Application.HibernateTest04" />
         <item itemvalue="Application.HibernateTest02" />
@@ -148,22 +165,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597578317175">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597581907342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597578317175" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597578317175">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597581907342" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597581907342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597578317175" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597578317174">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597581907342" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597581907342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597578317174" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597578317175">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597581907342" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597581907342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597578317175" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597581907342" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1597569798549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
