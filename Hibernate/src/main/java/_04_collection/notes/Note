@@ -1,0 +1,2 @@
+firstly run following command on psql
+CREATE SEQUENCE sequence_gen;

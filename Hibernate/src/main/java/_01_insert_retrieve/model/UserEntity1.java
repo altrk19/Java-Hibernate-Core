@@ -17,7 +17,7 @@ import javax.persistence.TemporalType;
 public class UserEntity1 {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int userId;
 

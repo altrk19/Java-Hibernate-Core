@@ -37,7 +37,8 @@
         <mapping class="_01_insert_retrieve.model.UserEntity1"/>
         <mapping class="_02_embedded.model.UserEntity2"/>
         <mapping class="_03_hashset.entity.UserEntity3"/>
+        <mapping class="_04_collection.entity.UserEntity4"/>
 
-     </session-factory>
+    </session-factory>
 
- </hibernate-configuration>
+</hibernate-configuration>
