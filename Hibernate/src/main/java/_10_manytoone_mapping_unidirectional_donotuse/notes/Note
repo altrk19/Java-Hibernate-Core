@@ -1,0 +1,17 @@
+Don’t use unidirectional one-to-many/many-to-one associations:
+Bidirectional one-to-many and both many-to-one association mappings are fine.
+But you should avoid unidirectional one-to-many associations in your domain model. Otherwise,
+Hibernate might create unexpected tables and execute more SQL statements than you expected.
+
+
+
+
+
+Hibernate: create table user_entity10 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table vehicle_entity10 (vehicleId  serial not null, vehicleName varchar(255), user_userId int4, primary key (vehicleId))
+Hibernate: alter table vehicle_entity10 add constraint FK1iwsei8dkcdjf0uryke0mf3rn foreign key (user_userId) references user_entity10
+Hibernate: insert into user_entity10 (userName) values (?)
+Hibernate: insert into vehicle_entity10 (user_userId, vehicleName) values (?, ?)
+Hibernate: insert into vehicle_entity10 (user_userId, vehicleName) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity10 userentity0_ where userentity0_.userId=?
+UserEntity10{userId=1, userName='Ali'}

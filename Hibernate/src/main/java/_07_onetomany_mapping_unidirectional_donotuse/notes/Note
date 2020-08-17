@@ -1,0 +1,22 @@
+Don’t use unidirectional one-to-many/many-to-one associations:
+Bidirectional one-to-many and both many-to-one association mappings are fine.
+But you should avoid unidirectional one-to-many associations in your domain model. Otherwise,
+Hibernate might create unexpected tables and execute more SQL statements than you expected.
+
+
+
+
+Hibernate: create table user_entity7 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table user_entity7_vehicle_entity7 (UserEntity7_userId int4 not null, vehicles_vehicleId int4 not null)
+Hibernate: create table vehicle_entity7 (vehicleId  serial not null, vehicleName varchar(255), primary key (vehicleId))
+Hibernate: alter table user_entity7_vehicle_entity7 add constraint UK_ebdyrcdpep8k6pknsyjr7yafg unique (vehicles_vehicleId)
+Hibernate: alter table user_entity7_vehicle_entity7 add constraint FKnt9w15h6sraqr97q8wplq92bv foreign key (vehicles_vehicleId) references vehicle_entity7
+Hibernate: alter table user_entity7_vehicle_entity7 add constraint FK99l77ll6xj7f99dh02jdcpjwo foreign key (UserEntity7_userId) references user_entity7
+Hibernate: insert into user_entity7 (userName) values (?)
+Hibernate: insert into vehicle_entity7 (vehicleName) values (?)
+Hibernate: insert into vehicle_entity7 (vehicleName) values (?)
+Hibernate: insert into user_entity7_vehicle_entity7 (UserEntity7_userId, vehicles_vehicleId) values (?, ?)
+Hibernate: insert into user_entity7_vehicle_entity7 (UserEntity7_userId, vehicles_vehicleId) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity7 userentity0_ where userentity0_.userId=?
+Hibernate: select vehicles0_.UserEntity7_userId as UserEnti1_1_0_, vehicles0_.vehicles_vehicleId as vehicles2_1_0_, vehicleent1_.vehicleId as vehicleI1_2_1_, vehicleent1_.vehicleName as vehicleN2_2_1_ from user_entity7_vehicle_entity7 vehicles0_ inner join vehicle_entity7 vehicleent1_ on vehicles0_.vehicles_vehicleId=vehicleent1_.vehicleId where vehicles0_.UserEntity7_userId=?
+UserEntity7{userId=1, userName='Atakan', vehicles=[VehicleEntity7{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity7{vehicleId=2, vehicleName='vehicle2'}]}

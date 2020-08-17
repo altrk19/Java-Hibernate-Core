@@ -1,0 +1,21 @@
+Why did we use mappedBy?
+we don't want two difference relation table in bidirectional relations.
+
+mappedBy provides only one relation. mappedBy removed following table
+user_id  vehicle_id
+
+
+
+
+
+
+
+Hibernate: create table user_entity8 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table vehicle_entity8 (vehicleId  serial not null, vehicleName varchar(255), user_id int4, primary key (vehicleId))
+Hibernate: alter table vehicle_entity8 add constraint FKt1aqvnykk68pfxyhv09mxlmio foreign key (user_id) references user_entity8
+Hibernate: insert into user_entity8 (userName) values (?)
+Hibernate: insert into vehicle_entity8 (user_id, vehicleName) values (?, ?)
+Hibernate: insert into vehicle_entity8 (user_id, vehicleName) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity8 userentity0_ where userentity0_.userId=?
+Hibernate: select vehicles0_.user_id as user_id3_1_0_, vehicles0_.vehicleId as vehicleI1_1_0_, vehicles0_.vehicleId as vehicleI1_1_1_, vehicles0_.user_id as user_id3_1_1_, vehicles0_.vehicleName as vehicleN2_1_1_ from vehicle_entity8 vehicles0_ where vehicles0_.user_id=?
+UserEntity8{userId=1, userName='Ali', vehicles=[VehicleEntity8{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity8{vehicleId=2, vehicleName='vehicle2'}]}

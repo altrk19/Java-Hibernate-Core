@@ -1,0 +1,18 @@
+Hibernate: create table user_entity13 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table user_vehicle_table (user_id int4 not null, vehicle_id int4 not null)
+Hibernate: create table vehicle_entity13 (vehicleId  serial not null, vehicleName varchar(255), primary key (vehicleId))
+Hibernate: create table vehicle_entity13_user_entity13 (VehicleEntity13_vehicleId int4 not null, userList_userId int4 not null)
+Hibernate: alter table user_vehicle_table add constraint FKt7irq9dg9joxg7g1ui4rem10v foreign key (vehicle_id) references vehicle_entity13
+Hibernate: alter table user_vehicle_table add constraint FK3umyujb2cd37342m9on81ptb8 foreign key (user_id) references user_entity13
+Hibernate: alter table vehicle_entity13_user_entity13 add constraint FKanxkhr3nnkhsytcg0adkqurb0 foreign key (userList_userId) references user_entity13
+Hibernate: alter table vehicle_entity13_user_entity13 add constraint FKhcx6lddf1kg1jb6kd8prjwp5u foreign key (VehicleEntity13_vehicleId) references vehicle_entity13
+Hibernate: insert into user_entity13 (userName) values (?)
+Hibernate: insert into vehicle_entity13 (vehicleName) values (?)
+Hibernate: insert into vehicle_entity13 (vehicleName) values (?)
+Hibernate: insert into user_vehicle_table (user_id, vehicle_id) values (?, ?)
+Hibernate: insert into user_vehicle_table (user_id, vehicle_id) values (?, ?)
+Hibernate: insert into vehicle_entity13_user_entity13 (VehicleEntity13_vehicleId, userList_userId) values (?, ?)
+Hibernate: insert into vehicle_entity13_user_entity13 (VehicleEntity13_vehicleId, userList_userId) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity13 userentity0_ where userentity0_.userId=?
+Hibernate: select vehiclemap0_.user_id as user_id1_1_0_, vehiclemap0_.vehicle_id as vehicle_2_1_0_, vehicleent1_.vehicleId as vehicleI1_2_1_, vehicleent1_.vehicleName as vehicleN2_2_1_ from user_vehicle_table vehiclemap0_ inner join vehicle_entity13 vehicleent1_ on vehiclemap0_.vehicle_id=vehicleent1_.vehicleId where vehiclemap0_.user_id=?
+UserEntity13{userId=1, userName='Ali', vehicles=[VehicleEntity13{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity13{vehicleId=2, vehicleName='vehicle2'}]}

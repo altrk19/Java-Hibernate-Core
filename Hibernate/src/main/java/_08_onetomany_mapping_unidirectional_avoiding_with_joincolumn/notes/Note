@@ -1,0 +1,13 @@
+Hibernate: create table user_vehicle (user_id int4 not null, vehicle_id int4 not null)
+Hibernate: create table vehicle_entity8 (vehicleId  serial not null, vehicleName varchar(255), primary key (vehicleId))
+Hibernate: alter table user_vehicle add constraint UK_lvbs0ujria9f6vkmxnbicre27 unique (vehicle_id)
+Hibernate: alter table user_vehicle add constraint FKfqv43vo7ceoi01nu7jpch43jo foreign key (vehicle_id) references vehicle_entity8
+Hibernate: alter table user_vehicle add constraint FK3eeknj9ip1jqydlbpcxdpyp1w foreign key (user_id) references user_entity8
+Hibernate: insert into user_entity8 (userName) values (?)
+Hibernate: insert into vehicle_entity8 (vehicleName) values (?)
+Hibernate: insert into vehicle_entity8 (vehicleName) values (?)
+Hibernate: insert into user_vehicle (user_id, vehicle_id) values (?, ?)
+Hibernate: insert into user_vehicle (user_id, vehicle_id) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity8 userentity0_ where userentity0_.userId=?
+Hibernate: select vehicles0_.user_id as user_id1_1_0_, vehicles0_.vehicle_id as vehicle_2_1_0_, vehicleent1_.vehicleId as vehicleI1_2_1_, vehicleent1_.vehicleName as vehicleN2_2_1_ from user_vehicle vehicles0_ inner join vehicle_entity8 vehicleent1_ on vehicles0_.vehicle_id=vehicleent1_.vehicleId where vehicles0_.user_id=?
+UserEntity8{userId=1, userName='İbrahim', vehicles=[VehicleEntity8{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity8{vehicleId=2, vehicleName='vehicle2'}]}

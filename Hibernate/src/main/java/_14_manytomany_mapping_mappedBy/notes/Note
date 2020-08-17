@@ -1,0 +1,21 @@
+Why did we use mappedBy?
+we don't want two difference relation table in bidirectional relations.
+
+mappedBy provides only one relation. mappedBy removed another relation table
+
+
+
+
+Hibernate: create table user_entity14 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table vehicle_entity14 (vehicleId  serial not null, vehicleName varchar(255), primary key (vehicleId))
+Hibernate: create table vehicle_user_table (user_id int4 not null, vehicle_id int4 not null)
+Hibernate: alter table vehicle_user_table add constraint FKf869lu1ww51m5bhwuea57b7qy foreign key (vehicle_id) references vehicle_entity14
+Hibernate: alter table vehicle_user_table add constraint FKgme9ojodl73w2mblfwsm4iw7l foreign key (user_id) references user_entity14
+Hibernate: insert into user_entity14 (userName) values (?)
+Hibernate: insert into vehicle_entity14 (vehicleName) values (?)
+Hibernate: insert into vehicle_entity14 (vehicleName) values (?)
+Hibernate: insert into vehicle_user_table (user_id, vehicle_id) values (?, ?)
+Hibernate: insert into vehicle_user_table (user_id, vehicle_id) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity14 userentity0_ where userentity0_.userId=?
+Hibernate: select vehiclemap0_.user_id as user_id1_2_0_, vehiclemap0_.vehicle_id as vehicle_2_2_0_, vehicleent1_.vehicleId as vehicleI1_1_1_, vehicleent1_.vehicleName as vehicleN2_1_1_ from vehicle_user_table vehiclemap0_ inner join vehicle_entity14 vehicleent1_ on vehiclemap0_.vehicle_id=vehicleent1_.vehicleId where vehiclemap0_.user_id=?
+UserEntity14{userId=1, userName='Ali', vehicles=[VehicleEntity14{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity14{vehicleId=2, vehicleName='vehicle2'}]}
