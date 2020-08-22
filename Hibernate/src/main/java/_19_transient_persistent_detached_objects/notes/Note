@@ -1,0 +1,20 @@
+
+session.save(user);
+bu metot çalıstıktan sonra user objesi persistent obje olmustur, hibernate bunu track eder ve kaydeder.
+
+save işleminden sonra obje üzerinde yapılan herhangi bir degisiklik commit işlemi gerçeklesene kadar hibernate tarafından
+takip edilir ve herhangi bir degisiklik olursa bu db'ye yansıtılır.
+
+Not:obje üzerinden yapılan her degisiklikte hinbernate bunu direkt db'ye reflect etmez, hibernate burada akıllı davranır
+ve obje üzerindeki tüm degisikligi commit atılmadan önce db'ye reflekte eder.
+
+transient: hibernate tarafında karsılıgı olmayan obje
+persistent:hibernate ile db'ye kaydedilmiş ve track edilen obje.
+detached:persistent obje session closed olduktan sonra detached obje adını alır
+
+
+
+
+Hibernate: create table user_entity19 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: insert into user_entity19 (userName) values (?)
+Hibernate: update user_entity19 set userName=? where userId=?

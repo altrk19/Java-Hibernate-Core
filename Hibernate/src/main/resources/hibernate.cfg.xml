@@ -66,9 +66,11 @@
         <!--<mapping class="_17_inheritance_table_per_class_strategy.entity.VehicleEntity17"/>-->
         <!--<mapping class="_17_inheritance_table_per_class_strategy.entity.CarEntity17"/>-->
         <!--<mapping class="_17_inheritance_table_per_class_strategy.entity.MotorcycleEntity17"/>-->
-        <mapping class="_18_inheritance_joined_strategy.entity.VehicleEntity18"/>
-        <mapping class="_18_inheritance_joined_strategy.entity.CarEntity18"/>
-        <mapping class="_18_inheritance_joined_strategy.entity.MotorcycleEntity18"/>
+        <!--<mapping class="_18_inheritance_joined_strategy.entity.VehicleEntity18"/>-->
+        <!--<mapping class="_18_inheritance_joined_strategy.entity.CarEntity18"/>-->
+        <!--<mapping class="_18_inheritance_joined_strategy.entity.MotorcycleEntity18"/>-->
+
+        <mapping class="_19_transient_persistent_detached_objects.entity.UserEntity19"/>
 
     </session-factory>
 
