@@ -1,0 +1,24 @@
+select * from public.vehicle_entity18 join public.car_entity18 on vehicle_entity18.vehicleid = car_entity18.vehicleid
+
+
+
+
+
+
+
+
+
+
+Hibernate: create table car_entity18 (steeringWheel varchar(255), vehicleId int4 not null, primary key (vehicleId))
+Hibernate: create table motorcycle_entity18 (handlebar varchar(255), vehicleId int4 not null, primary key (vehicleId))
+Hibernate: create table vehicle_entity18 (vehicleId int4 not null, vehicleName varchar(255), primary key (vehicleId))
+Hibernate: alter table car_entity18 add constraint FKhb21en4gmuc0qddt7nu7bfdfr foreign key (vehicleId) references vehicle_entity18
+Hibernate: alter table motorcycle_entity18 add constraint FKioyk73yr9ma5f7yicili3ssax foreign key (vehicleId) references vehicle_entity18
+Hibernate: select nextval ('hibernate_sequence')
+Hibernate: select nextval ('hibernate_sequence')
+Hibernate: select nextval ('hibernate_sequence')
+Hibernate: insert into vehicle_entity18 (vehicleName, vehicleId) values (?, ?)
+Hibernate: insert into vehicle_entity18 (vehicleName, vehicleId) values (?, ?)
+Hibernate: insert into car_entity18 (steeringWheel, vehicleId) values (?, ?)
+Hibernate: insert into vehicle_entity18 (vehicleName, vehicleId) values (?, ?)
+Hibernate: insert into motorcycle_entity18 (handlebar, vehicleId) values (?, ?)
