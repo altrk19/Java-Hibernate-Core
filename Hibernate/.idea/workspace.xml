@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c8b480-11d9-470c-8dbe-934b4abdfa54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/entity/UserEntity19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/test/HibernateTest19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/image2-state-changes.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/entity/UserEntity20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTest20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/test/HibernateTest19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/test/HibernateTest19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +64,7 @@
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_17_inheritance_table_per_class_strategy\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateTest19">
-    <configuration name="HibernateTest15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_cascade_types.test.HibernateTest15" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_15_cascade_types.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HibernateTest20">
     <configuration name="HibernateTest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_16_inheritance_single_type_strategy_default_behave.test.HibernateTest16" />
       <module name="Hibernate" />
@@ -130,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HibernateTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20_hql.test.HibernateTest20" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20_hql.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateTest20" />
         <item itemvalue="Application.HibernateTest19" />
         <item itemvalue="Application.HibernateTest18" />
         <item itemvalue="Application.HibernateTest17" />
         <item itemvalue="Application.HibernateTest16" />
-        <item itemvalue="Application.HibernateTest15" />
       </list>
     </recent_temporary>
   </component>
@@ -190,22 +190,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598099611299">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598116415094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598099611299" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598099611299">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598116415094" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598116415094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598099611299" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598099611299">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598116415094" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598116415094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598099611299" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598099611299">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598116415094" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598116415094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598099611299" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598116415094" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597598021299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

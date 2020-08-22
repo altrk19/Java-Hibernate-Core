@@ -11,8 +11,6 @@ public class HibernateTest19 {
     public static void main(String[] args) {
         UserEntity19 user1 = new UserEntity19();
         user1.setUserName("name");
-
-
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
 
