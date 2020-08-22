@@ -21,7 +21,6 @@ public class HibernateTest20 {
         hqlQuery3WithParameterDoNotUseLikeThisBecauseOfSqlInjection();
 
         hqlQuery4WithParameterBinding();
-
     }
 
     private static void hqlQuery1() {
