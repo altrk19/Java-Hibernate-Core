@@ -2,85 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c8b480-11d9-470c-8dbe-934b4abdfa54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/entity/UserEntity7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/test/HibernateTest07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/entity/VehicleEntity8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/entity/UserEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/entity/VehicleEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_best/test/HibernateTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_manytoone_mapping_unidirectional_donotuse/entity/UserEntity10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_manytoone_mapping_unidirectional_donotuse/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_manytoone_mapping_unidirectional_donotuse/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_manytoone_mapping_unidirectional_donotuse/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/entity/UserEntity11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/entity/VehicleEntity11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn/test/HibernateTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes/image4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/test/HibernateTest13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/entity/VehicleEntity14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/test/HibernateTest14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bc3bb547c19273eb5fd1c27cd6e688e879076d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bea3a1d7e6058458113b9374e8c6dcbbe8bf7e95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc533ebe1df598ea0ad117f4c321a64c51efdf2d" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_15_cascade_types/entity/UserEntity15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/image1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/image2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_15_cascade_types/test/HibernateTest15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/CarEntity16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/MotorcycleEntity16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/VehicleEntity16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/notes/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/test/HibernateTest16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/entity/UserEntity7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/entity/UserEntity8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/entity/VehicleEntity7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/entity/VehicleEntity7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/notes/image3-withoutManyToOne.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/notes/image4-withManyToOne.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping/test/HibernateTest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn/test/HibernateTest08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/entity/UserEntity8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/entity/UserEntity12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/entity/VehicleEntity8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/entity/VehicleEntity12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_mappedBy/test/HibernateTest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_12_onetomany_mapping_bidirectional_mappedBy/test/HibernateTest12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/entity/UserEntity9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/entity/UserEntity14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/entity/VehicleEntity9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_14_manytomany_mapping_mappedBy/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/notes/image3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_manytomany_mapping/test/HibernateTest09.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_07_onetomany_mapping/entity/UserEntity7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_07_onetomany_mapping/entity/VehicleEntity7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_07_onetomany_mapping/test/HibernateTest07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_08_onetomany_mapping_mappedBy/entity/UserEntity8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_08_onetomany_mapping_mappedBy/entity/VehicleEntity8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_08_onetomany_mapping_mappedBy/test/HibernateTest08.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_09_manytomany_mapping/entity/UserEntity9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_09_manytomany_mapping/entity/VehicleEntity9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_09_manytomany_mapping/test/HibernateTest09.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,67 +50,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_13_manytomany_mapping_without_mappedBy/notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/notes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_13_manytomany_mapping_without_mappedBy\notes" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_13_manytomany_mapping_without_mappedBy\entity" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_14_manytomany_mapping_mappedBy\notes" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_12_onetomany_mapping_bidirectional_mappedBy\notes" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn\notes" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_16_inheritance_single_type_strategy_default_behave.entity" />
       <recent name="_13_manytomany_mapping_without_mappedBy.test" />
       <recent name="_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn.test" />
       <recent name="_09_onetomany_mapping_bidirectional_best.test" />
       <recent name="_08_onetomany_mapping_unidirectional_avoiding_with_joincolumn.test" />
-      <recent name="_07_onetomany_mapping_unidirectional_donotuse.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_16_inheritance_single_type_strategy_default_behave\notes" />
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_15_cascade_types\notes" />
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_15_cascade_types\entity" />
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_13_manytomany_mapping_without_mappedBy\notes" />
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_13_manytomany_mapping_without_mappedBy\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateTest13">
-    <configuration name="HibernateTest08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_manytoone_mapping_unidirectional_donotuse.test.HibernateTest08" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10_manytoone_mapping_unidirectional_donotuse.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_manytoone_mapping_unidirectional_donotuse.test.HibernateTest10" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10_manytoone_mapping_unidirectional_donotuse.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn.test.HibernateTest11" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HibernateTest16">
     <configuration name="HibernateTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_12_onetomany_mapping_bidirectional_mappedBy.test.HibernateTest12" />
       <module name="Hibernate" />
@@ -216,13 +111,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HibernateTest15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_cascade_types.test.HibernateTest15" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_15_cascade_types.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_16_inheritance_single_type_strategy_default_behave.test.HibernateTest16" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_16_inheritance_single_type_strategy_default_behave.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateTest16" />
+        <item itemvalue="Application.HibernateTest15" />
         <item itemvalue="Application.HibernateTest13" />
         <item itemvalue="Application.HibernateTest14" />
         <item itemvalue="Application.HibernateTest12" />
-        <item itemvalue="Application.HibernateTest11" />
-        <item itemvalue="Application.HibernateTest10" />
       </list>
     </recent_temporary>
   </component>
@@ -256,10 +177,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597690043740" />
-    <state x="729" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1597595699008">
+    <state x="729" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598092064590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="729" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597595699008" />
+    <state x="729" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598092064590" />
+    <state x="756" y="378" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598086754555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="378" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1598086754555" />
     <state x="553" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597572627211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,22 +197,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597694083670">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598093093992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597694083670" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597694083670">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598093093992" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598093093991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597694083670" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597694083670">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598093093991" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598093093991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597694083670" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597694083670">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598093093991" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598093093992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597694083670" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598093093992" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597598021299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,11 +229,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597598021299" />
-    <state x="466" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1597664055311">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="655" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1597735311081">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="239" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-3200.-215.1920.1040/-1280.-166.1280.984@0.0.1366.728" timestamp="1597664055310" />
     <state x="466" y="239" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597640655918" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597569798549" />
+    <state x="655" y="341" key="com.intellij.ide.util.TipDialog/1920.202.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1597735311081" />
   </component>
 </project>

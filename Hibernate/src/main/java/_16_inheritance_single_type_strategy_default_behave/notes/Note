@@ -1,0 +1,4 @@
+Hibernate: create table vehicle_entity16 (Vehicle_Type varchar(31) not null, vehicleId  serial not null, vehicleName varchar(255), steeringWheel varchar(255), handlebar varchar(255), primary key (vehicleId))
+Hibernate: insert into vehicle_entity16 (vehicleName, Vehicle_Type) values (?, 'Vehicle')
+Hibernate: insert into vehicle_entity16 (vehicleName, steeringWheel, Vehicle_Type) values (?, ?, 'Car')
+Hibernate: insert into vehicle_entity16 (vehicleName, handlebar, Vehicle_Type) values (?, ?, 'Motorcycle')

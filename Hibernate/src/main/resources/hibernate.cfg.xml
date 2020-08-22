@@ -54,10 +54,16 @@
         <!--<mapping class="_11_manytoone_mapping_unidirectional_avoiding_with_joincolumn.entity.VehicleEntity11"/>-->
         <!--<mapping class="_12_onetomany_mapping_bidirectional_mappedBy.entity.UserEntity12"/>-->
         <!--<mapping class="_12_onetomany_mapping_bidirectional_mappedBy.entity.VehicleEntity12"/>-->
-        <mapping class="_13_manytomany_mapping_without_mappedBy.entity.UserEntity13"/>
-        <mapping class="_13_manytomany_mapping_without_mappedBy.entity.VehicleEntity13"/>
+        <!--<mapping class="_13_manytomany_mapping_without_mappedBy.entity.UserEntity13"/>-->
+        <!--<mapping class="_13_manytomany_mapping_without_mappedBy.entity.VehicleEntity13"/>-->
         <!--<mapping class="_14_manytomany_mapping_mappedBy.entity.UserEntity14"/>-->
         <!--<mapping class="_14_manytomany_mapping_mappedBy.entity.VehicleEntity14"/>-->
+        <!--<mapping class="_15_cascade_types.entity.UserEntity15"/>-->
+        <!--<mapping class="_15_cascade_types.entity.VehicleEntity15"/>-->
+        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.VehicleEntity16"/>
+        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.CarEntity16"/>
+        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.MotorcycleEntity16"/>
+
 
 
     </session-factory>

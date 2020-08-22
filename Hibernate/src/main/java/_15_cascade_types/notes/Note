@@ -1,0 +1,22 @@
+no need to save vehicle entities to database.
+used @OneToMany(mappedBy = "userMappedBy", cascade = CascadeType.ALL) in UserEntity.
+just enough save user entity
+//        session.save(vehicle1);
+//        session.save(vehicle2);
+
+
+
+
+
+
+
+
+Hibernate: create table user_entity15 (userId  serial not null, userName varchar(255), primary key (userId))
+Hibernate: create table vehicle_entity15 (vehicleId  serial not null, vehicleName varchar(255), user_id int4, primary key (vehicleId))
+Hibernate: alter table vehicle_entity15 add constraint FKqy55v31awukog50y3fwknogci foreign key (user_id) references user_entity15
+Hibernate: insert into user_entity15 (userName) values (?)
+Hibernate: insert into vehicle_entity15 (user_id, vehicleName) values (?, ?)
+Hibernate: insert into vehicle_entity15 (user_id, vehicleName) values (?, ?)
+Hibernate: select userentity0_.userId as userId1_0_0_, userentity0_.userName as userName2_0_0_ from user_entity15 userentity0_ where userentity0_.userId=?
+Hibernate: select vehicles0_.user_id as user_id3_1_0_, vehicles0_.vehicleId as vehicleI1_1_0_, vehicles0_.vehicleId as vehicleI1_1_1_, vehicles0_.user_id as user_id3_1_1_, vehicles0_.vehicleName as vehicleN2_1_1_ from vehicle_entity15 vehicles0_ where vehicles0_.user_id=?
+UserEntity15{userId=1, userName='Ali', vehicles=[VehicleEntity15{vehicleId=1, vehicleName='vehicle1'}, VehicleEntity15{vehicleId=2, vehicleName='vehicle2'}]}
