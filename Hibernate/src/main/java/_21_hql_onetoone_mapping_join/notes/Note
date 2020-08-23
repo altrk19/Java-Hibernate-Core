@@ -1,0 +1,4 @@
+What is the FETCH in the join query
+A "fetch" join allows associations or collections of values to be initialized along with their parent objects using a
+single select. This is particularly useful in the case of a collection. It effectively overrides the outer join and
+lazy declarations of the mapping file for associations and collections

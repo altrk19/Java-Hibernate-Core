@@ -70,8 +70,11 @@
         <!--<mapping class="_18_inheritance_joined_strategy.entity.CarEntity18"/>-->
         <!--<mapping class="_18_inheritance_joined_strategy.entity.MotorcycleEntity18"/>-->
         <!--<mapping class="_19_transient_persistent_detached_objects.entity.UserEntity19"/>-->
-        <mapping class="_20_hql.entity.UserEntity20"/>
-        <mapping class="_20_hql.entity.UserEntity20Backup"/>
+        <!--<mapping class="_20_hql.entity.UserEntity20"/>-->
+        <!--<mapping class="_20_hql.entity.UserEntity20Backup"/>-->
+        <mapping class="_21_hql_onetoone_mapping_join.entity.UserEntity21"/>
+        <mapping class="_21_hql_onetoone_mapping_join.entity.VehicleEntity21"/>
+
 
     </session-factory>
 

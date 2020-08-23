@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c8b480-11d9-470c-8dbe-934b4abdfa54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/entity/UserEntity20Backup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTestInsertUpdateDeleteQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTestSelectQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/entity/UserEntity21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/entity/VehicleEntity21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/notes/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/test/HibernateTest21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTest20.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,31 +43,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/entity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_21_hql_onetoone_mapping_join\entity" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_19_transient_persistent_detached_objects\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_18_inheritance_joined_strategy\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_17_inheritance_table_per_class_strategy\notes" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_17_inheritance_table_per_class_strategy\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_21_hql_onetoone_mapping_join.test" />
       <recent name="_20_hql.entity" />
       <recent name="_20_hql.test" />
       <recent name="_17_inheritance_table_per_class_strategy.test" />
       <recent name="_16_inheritance_single_type_strategy_default_behave.entity" />
-      <recent name="_13_manytomany_mapping_without_mappedBy.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HibernateTest21">
     <configuration name="HibernateTest01SelectQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20_hql.test.HibernateTest01SelectQuery" />
       <module name="Hibernate" />
@@ -90,19 +87,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20_hql.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_17_inheritance_table_per_class_strategy.test.HibernateTest17" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_17_inheritance_table_per_class_strategy.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HibernateTest21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21_hql_onetoone_mapping_join.test.HibernateTest21" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21_hql_onetoone_mapping_join.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateTest21" />
         <item itemvalue="Application.HibernateTest02InsertUpdateDeleteQueries" />
         <item itemvalue="Application.HibernateTest01SelectQuery" />
         <item itemvalue="Application.HibernateTest19" />
         <item itemvalue="Application.HibernateTest18" />
-        <item itemvalue="Application.HibernateTest17" />
       </list>
     </recent_temporary>
   </component>
@@ -204,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598202481972">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598205133808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598202481972" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598202481971">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598205133808" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598205133808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598202481971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598202481971">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598205133808" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598205133808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598202481971" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598202481972">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598205133808" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598205133808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598202481972" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598205133808" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598128801367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
