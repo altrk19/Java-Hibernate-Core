@@ -71,6 +71,7 @@
         <!--<mapping class="_18_inheritance_joined_strategy.entity.MotorcycleEntity18"/>-->
         <!--<mapping class="_19_transient_persistent_detached_objects.entity.UserEntity19"/>-->
         <mapping class="_20_hql.entity.UserEntity20"/>
+        <mapping class="_20_hql.entity.UserEntity20Backup"/>
 
     </session-factory>
 
