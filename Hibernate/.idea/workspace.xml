@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c8b480-11d9-470c-8dbe-934b4abdfa54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/entity/UserEntity22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/entity/VehicleEntity22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/test/HibernateTest22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_23_hql_aggregate_groupBy_having/notes/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery/entity/UserEntity24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery/test/HibernateTest24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery_sqlNativeQuery/test/HibernateTest24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery_sqlNativeQuery/test/HibernateTest24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598248841687">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598249367136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598248841687" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598248841686">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598249367136" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598249367136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598248841686" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598248841686">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598249367136" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598249367135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598248841686" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598248841686">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598249367135" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598249367136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598248841686" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598249367136" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598128801367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

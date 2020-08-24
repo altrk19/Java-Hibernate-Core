@@ -20,6 +20,9 @@ public class HibernateTest24 {
 
         getAllUsersSqlNativeQuery();
 
+        getAllUsersSqlNativeQuery2();
+
+
     }
 
     private static void createUser() {
@@ -78,6 +81,27 @@ public class HibernateTest24 {
 
             System.out.println("User Id:" + userId);
             System.out.println("User Name:" + userName);
+        }
+        //User Id:1
+        //User Name:User0
+        //...
+        //User Id:10
+        //User Name:User9
+
+        session.close();
+        System.out.println("---------------------------");
+    }
+
+    private static void getAllUsersSqlNativeQuery2() {
+        Session session = sessionFactory.getCurrentSession();
+        session.beginTransaction();
+
+        List<UserEntity24> users = session.createNativeQuery("SELECT * FROM user_entity24").addEntity(UserEntity24.class).list();
+
+        for (UserEntity24 user : users) {
+
+            System.out.println("User Id:" + user.getUserId());
+            System.out.println("User Name:" + user.getUserName());
         }
         //User Id:1
         //User Name:User0
