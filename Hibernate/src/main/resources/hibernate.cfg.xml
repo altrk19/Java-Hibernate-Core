@@ -76,7 +76,8 @@
         <!--<mapping class="_21_hql_onetoone_mapping_join.entity.VehicleEntity21"/>-->
         <!--<mapping class="_22_hql_onetomany_mapping_bidirectional.entity.UserEntity22"/>-->
         <!--<mapping class="_22_hql_onetomany_mapping_bidirectional.entity.VehicleEntity22"/>-->
-        <mapping class="_24_namedQuery_namedNativeQuery_sqlNativeQuery.entity.UserEntity24"/>
+        <!--<mapping class="_24_namedQuery_namedNativeQuery_sqlNativeQuery.entity.UserEntity24"/>-->
+        <mapping class="_25_criteria_api.entity.UserEntity25"/>
 
 
 
