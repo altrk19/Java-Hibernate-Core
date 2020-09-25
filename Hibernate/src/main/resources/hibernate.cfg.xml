@@ -60,6 +60,14 @@
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy.entity.VehicleEntity11"/>-->
 <!--        <mapping-->
+<!--                class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.UserEntity15"/>-->
+<!--        <mapping-->
+<!--                class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.VehicleEntity15"/>-->
+<!--        <mapping-->
+<!--                class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._6_onetomany_mapping_bidirectional_with_fetch.entity.UserEntity15"/>-->
+<!--        <mapping-->
+<!--                class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._6_onetomany_mapping_bidirectional_with_fetch.entity.VehicleEntity15"/>-->
+<!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._2_onetomany.unidirectional._1_onetomany_mapping_unidirectional_donotuse.entity.UserEntity7"/>-->
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._2_onetomany.unidirectional._1_onetomany_mapping_unidirectional_donotuse.entity.VehicleEntity7"/>-->
@@ -73,8 +81,8 @@
 <!--                class="_05_mappings_mappedBy_cascade._2_onetomany.unidirectional._3_onetomany_mapping_unidirectional_with_joincolumn.entity.UserEntity8"/>-->
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._3_manytoone._1_manytoone_mapping_unidirectional_donotuse.entity.UserEntity12"/>-->
-<!--       <mapping-->
-<!--              class="_05_mappings_mappedBy_cascade._3_manytoone._1_manytoone_mapping_unidirectional_donotuse.entity.VehicleEntity12"/>-->
+<!--        <mapping-->
+<!--                class="_05_mappings_mappedBy_cascade._3_manytoone._1_manytoone_mapping_unidirectional_donotuse.entity.VehicleEntity12"/>-->
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._3_manytoone._2_manytoone_mapping_unidirectional_with_jointable.entity.UserEntity13"/>-->
 <!--        <mapping-->
@@ -87,8 +95,6 @@
 <!--                class="_05_mappings_mappedBy_cascade._4_manytomany._2_manytomany_mapping_with_mappedBy.entity.UserEntity14"/>-->
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._4_manytomany._2_manytomany_mapping_with_mappedBy.entity.VehicleEntity14"/>-->
-<!--        <mapping class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.UserEntity15"/>-->
-<!--        <mapping class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.VehicleEntity15"/>-->
 <!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.VehicleEntity16"/>-->
 <!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.CarEntity16"/>-->
 <!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.MotorcycleEntity16"/>-->
