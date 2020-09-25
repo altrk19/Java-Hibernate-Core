@@ -2,119 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c8b480-11d9-470c-8dbe-934b4abdfa54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/entity/UserEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/entity/VehicleEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/test/HibernateTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/entity/UserEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/entity/VehicleEntity9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_2_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/test/HibernateTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/entity/UserEntity10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/entity/VehicleEntity10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_3_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/test/HibernateTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/entity/UserEntity11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/entity/VehicleEntity11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_4_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/test/HibernateTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/entity/UserEntity8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/entity/VehicleEntity8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/notes/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/notes/image1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/notes/image2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_3_onetomany_mapping_unidirectional_with_joincolumn/test/HibernateTest8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/entity/CarEntity18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/entity/MotorcycleEntity18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/entity/VehicleEntity18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/notes/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/notes/image1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/notes/image2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/notes/image3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/notes/image4-join-query.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_3_inheritance_joined_strategy/test/HibernateTest18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_2_hql_onetoone_mapping_join/entity/UserEntity21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_2_hql_onetoone_mapping_join/entity/VehicleEntity21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_2_hql_onetoone_mapping_join/notes/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_2_hql_onetoone_mapping_join/test/HibernateTest21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_3_hql_onetomany_mapping_bidirectional/entity/UserEntity22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_3_hql_onetomany_mapping_bidirectional/entity/VehicleEntity22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_3_hql_onetomany_mapping_bidirectional/test/HibernateTest22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/entity/AddressEntity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/entity/AddressEntity4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/entity/UserEntity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/entity/UserEntity4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/test/HibernateTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/test/HibernateTest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_lazy_eager/model/AddressEntity5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/AddressEntity5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_lazy_eager/model/UserEntity5Eager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/UserEntity5Eager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_lazy_eager/model/UserEntity5Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/UserEntity5Lazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_lazy_eager/test/HibernateTest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/test/HibernateTest05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_06_onetoone_mapping/model/UserEntity6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_1_onetoone/entity/UserEntity6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_06_onetoone_mapping/model/VehicleEntity6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_1_onetoone/entity/VehicleEntity6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_06_onetoone_mapping/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_1_onetoone/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_06_onetoone_mapping/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_1_onetoone/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_06_onetoone_mapping/test/HibernateTest06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_1_onetoone/test/HibernateTest06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/entity/UserEntity7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/entity/UserEntity7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/entity/VehicleEntity7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/entity/VehicleEntity7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/notes/image3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_07_onetomany_mapping_unidirectional_donotuse/test/HibernateTest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_1_onetomany_mapping_unidirectional_donotuse/test/HibernateTest07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/entity/UserEntity8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/entity/UserEntity8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/entity/VehicleEntity8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/entity/VehicleEntity8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/notes/image3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_08_onetomany_mapping_unidirectional_with_jointable/test/HibernateTest8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/unidirectional/_2_onetomany_mapping_unidirectional_with_jointable/test/HibernateTest8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/entity/UserEntity9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/entity/VehicleEntity9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/notes/image3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_09_onetomany_mapping_bidirectional_with_jointable_without_mappedBy/test/HibernateTest9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/entity/UserEntity10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/entity/VehicleEntity10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_10_onetomany_mapping_bidirectional_without_jointable_with_mappedBy/test/HibernateTest10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/entity/UserEntity11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/entity/VehicleEntity11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/notes/image3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_11_onetomany_mapping_bidirectional_with_jointable_with_mappedBy/test/HibernateTest11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/entity/UserEntity12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/entity/UserEntity12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/entity/VehicleEntity12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/entity/VehicleEntity12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_12_manytoone_mapping_unidirectional_donotuse/test/HibernateTest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_1_manytoone_mapping_unidirectional_donotuse/test/HibernateTest12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/entity/UserEntity13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/entity/UserEntity13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/entity/VehicleEntity13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/entity/VehicleEntity13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/notes/image3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_13_manytoone_mapping_unidirectional_with_jointable/test/HibernateTest13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_3_manytoone/_2_manytoone_mapping_unidirectional_with_jointable/test/HibernateTest13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/entity/UserEntity14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/entity/UserEntity14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/entity/VehicleEntity14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/entity/VehicleEntity14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/notes/Note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/notes/image1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/notes/image2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/notes/image3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/notes/image4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/notes/image4.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_1_manytomany_mapping_without_mappedBy/test/HibernateTest14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_4_manytomany/_1_manytomany_mapping_without_mappedBy/test/HibernateTest14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/entity/UserEntity14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/entity/VehicleEntity14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/notes/image1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/notes/image2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/notes/image3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_14_2_manytomany_mapping_with_mappedBy/test/HibernateTest14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_03_hashset/entity/AddressEntity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_hashset/entity/AddressEntity3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_03_hashset/entity/UserEntity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_hashset/entity/UserEntity3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_03_hashset/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_hashset/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_03_hashset/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_hashset/notes/image2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_03_hashset/test/HibernateTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_1_hashset/test/HibernateTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/entity/AddressEntity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/entity/AddressEntity4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/entity/UserEntity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/entity/UserEntity4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/notes/image2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/notes/image3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_1_element_collection/test/HibernateTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection/test/HibernateTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/AddressEntity5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_3_element_collection_fetch_types/entity/AddressEntity5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/UserEntity5Eager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_3_element_collection_fetch_types/entity/UserEntity5Eager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/entity/UserEntity5Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_3_element_collection_fetch_types/entity/UserEntity5Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_04_collection/_2_element_collection_fetch_types/test/HibernateTest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_04_collection/_3_element_collection_fetch_types/test/HibernateTest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/entity/UserEntity15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/entity/UserEntity15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/entity/VehicleEntity15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/entity/VehicleEntity15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/notes/image2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_15_cascade_types/test/HibernateTest15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade/test/HibernateTest15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/CarEntity16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/entity/CarEntity16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/MotorcycleEntity16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/entity/MotorcycleEntity16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/entity/VehicleEntity16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/entity/VehicleEntity16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_inheritance_single_type_strategy_default_behave/test/HibernateTest16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_1_inheritance_single_type_strategy_default_behave/test/HibernateTest16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/entity/CarEntity17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/entity/CarEntity17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/entity/MotorcycleEntity17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/entity/MotorcycleEntity17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/entity/VehicleEntity17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/entity/VehicleEntity17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/notes/image2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/notes/image2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/notes/image3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/notes/image3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_17_inheritance_table_per_class_strategy/test/HibernateTest17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_06_inheritance/_2_inheritance_table_per_class_strategy/test/HibernateTest17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/entity/CarEntity18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/entity/MotorcycleEntity18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/entity/VehicleEntity18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/notes/Note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/notes/image1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/notes/image2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/notes/image3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/notes/image4-join-query.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_18_inheritance_joined_strategy/test/HibernateTest18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/entity/UserEntity19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_03_transient_persistent_detached_objects/entity/UserEntity19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_03_transient_persistent_detached_objects/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/image1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_03_transient_persistent_detached_objects/notes/image1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/notes/image2-state-changes.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_03_transient_persistent_detached_objects/notes/image2-state-changes.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_transient_persistent_detached_objects/test/HibernateTest19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_03_transient_persistent_detached_objects/test/HibernateTest19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/entity/UserEntity20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_1_hql/entity/UserEntity20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/entity/UserEntity20Backup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_1_hql/entity/UserEntity20Backup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_1_hql/notes/Note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTest01SelectQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_1_hql/test/HibernateTest01SelectQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_20_hql/test/HibernateTest02InsertUpdateDeleteQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_1_hql/test/HibernateTest02InsertUpdateDeleteQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/entity/UserEntity21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/entity/VehicleEntity21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/notes/Note" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_21_hql_onetoone_mapping_join/test/HibernateTest21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/entity/UserEntity22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/entity/VehicleEntity22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_22_hql_onetomany_mapping_bidirectional/test/HibernateTest22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_23_hql_aggregate_groupBy_having/notes/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_07_hql/_4_hql_aggregate_groupBy_having/notes/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery_sqlNativeQuery/entity/UserEntity24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_08_namedQuery_namedNativeQuery_sqlNativeQuery/entity/UserEntity24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_24_namedQuery_namedNativeQuery_sqlNativeQuery/test/HibernateTest24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_08_namedQuery_namedNativeQuery_sqlNativeQuery/test/HibernateTest24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_25_criteria_api/entity/UserEntity25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_09_criteria_api/entity/UserEntity25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_25_criteria_api/test/HibernateTest25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_09_criteria_api/test/HibernateTest25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_26_cache/entity/UserEntity26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_10_cache/entity/UserEntity26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_26_cache/test/HibernateTest26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_10_cache/test/HibernateTest26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,18 +124,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy/notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_05_mappings_mappedBy_cascade/_2_onetomany/bidirectional/_5_onetomany_mapping_bidirectional_with_cascade" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_mappings_mappedBy_cascade\_2_onetomany\bidirectional\_5_onetomany_mapping_bidirectional_with_cascade" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_mappings_mappedBy_cascade\_2_onetomany\bidirectional\_1_onetomany_mapping_bidirectional_without_jointable_without_mappedBy\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_mappings_mappedBy_cascade\_2_onetomany\bidirectional" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_mappings_mappedBy_cascade\_2_onetomany\unidirectional\_3_onetomany_mapping_unidirectional_with_joincolumn\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_mappings_mappedBy_cascade\_2_onetomany\unidirectional" />
-      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_05_associations\_1_onetoone" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_04_collection._2_element_collection_fetch_types.model.test" />
@@ -172,10 +145,11 @@
       <recent name="_24_namedQuery_namedNativeQuery.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_07_hql\_4_aggregate_groupBy_having\notes" />
       <recent name="D:\Users\aturk\Desktop\Vagrant\projects\Java Hibernate\Hibernate\src\main\java\_04_collection\notes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateTest14 (1)">
+  <component name="RunManager" selected="Application.HibernateTest15">
     <configuration name="HibernateTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_05_mappings_mappedBy_cascade._3_manytoone._1_manytoone_mapping_unidirectional_donotuse.test.HibernateTest12" />
       <module name="Hibernate" />
@@ -228,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest8 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_mappings_mappedBy_cascade._2_onetomany.unidirectional._3_onetomany_mapping_unidirectional_with_joincolumn.test.HibernateTest8" />
+    <configuration name="HibernateTest15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.test.HibernateTest15" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_mappings_mappedBy_cascade._2_onetomany.unidirectional._3_onetomany_mapping_unidirectional_with_joincolumn.test.*" />
+          <option name="PATTERN" value="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateTest15" />
         <item itemvalue="Application.HibernateTest14 (1)" />
         <item itemvalue="Application.HibernateTest14" />
         <item itemvalue="Application.HibernateTest13" />
         <item itemvalue="Application.HibernateTest12" />
-        <item itemvalue="Application.HibernateTest8 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598092064590" />
-    <state x="528" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601022819632">
+    <state x="528" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601030780996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="528" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601022819632" />
+    <state x="528" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601030780996" />
     <state x="756" y="378" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598086754555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,25 +291,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597499761424" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1601025926405">
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1601030303541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601025926405" />
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601030303541" />
     <state width="1877" height="257" key="GridCell.Tab.0.bottom/1920.202.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598346890603" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1601025926404">
+    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1601030303541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601025926404" />
+    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601030303541" />
     <state width="1877" height="257" key="GridCell.Tab.0.center/1920.202.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598346890603" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1601025926404">
+    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1601030303541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601025926404" />
+    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601030303541" />
     <state width="1877" height="257" key="GridCell.Tab.0.left/1920.202.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598346890603" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1601025926404">
+    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1601030303541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601025926404" />
+    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601030303541" />
     <state width="1877" height="257" key="GridCell.Tab.0.right/1920.202.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598346890603" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598128801367">
       <screen x="0" y="0" width="1920" height="1040" />

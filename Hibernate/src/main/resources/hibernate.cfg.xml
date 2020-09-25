@@ -36,10 +36,11 @@
 
 <!--        <mapping class="_01_insert_retrieve.model.UserEntity1"/>-->
 <!--        <mapping class="_02_embedded.model.UserEntity2"/>-->
-<!--        <mapping class="_03_hashset.entity.UserEntity3"/>-->
-<!--        <mapping class="_04_collection._1_element_collection.entity.UserEntity4"/>-->
-<!--        <mapping class="_04_collection._2_element_collection_fetch_types.entity.UserEntity5Eager"/>-->
-<!--        <mapping class="_04_collection._2_element_collection_fetch_types.entity.UserEntity5Lazy"/>-->
+<!--        <mapping class="_03_transient_persistent_detached_objects.entity.UserEntity19"/>-->
+<!--        <mapping class="_04_collection._1_hashset.entity.UserEntity3"/>-->
+<!--        <mapping class="_04_collection._2_element_collection.entity.UserEntity4"/>-->
+<!--        <mapping class="_04_collection._3_element_collection_fetch_types.entity.UserEntity5Eager"/>-->
+<!--        <mapping class="_04_collection._3_element_collection_fetch_types.entity.UserEntity5Lazy"/>-->
 <!--        <mapping class="_05_mappings_mappedBy_cascade._1_onetoone.entity.UserEntity6"/>-->
 <!--        <mapping class="_05_mappings_mappedBy_cascade._1_onetoone.entity.VehicleEntity6"/>-->
 <!--        <mapping-->
@@ -86,27 +87,26 @@
 <!--                class="_05_mappings_mappedBy_cascade._4_manytomany._2_manytomany_mapping_with_mappedBy.entity.UserEntity14"/>-->
 <!--        <mapping-->
 <!--                class="_05_mappings_mappedBy_cascade._4_manytomany._2_manytomany_mapping_with_mappedBy.entity.VehicleEntity14"/>-->
-<!--        <mapping class="_15_cascade_types.entity.UserEntity15"/>-->
-<!--        <mapping class="_15_cascade_types.entity.VehicleEntity15"/>-->
-<!--        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.VehicleEntity16"/>-->
-<!--        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.CarEntity16"/>-->
-<!--        <mapping class="_16_inheritance_single_type_strategy_default_behave.entity.MotorcycleEntity16"/>-->
-<!--        <mapping class="_17_inheritance_table_per_class_strategy.entity.VehicleEntity17"/>-->
-<!--        <mapping class="_17_inheritance_table_per_class_strategy.entity.CarEntity17"/>-->
-<!--        <mapping class="_17_inheritance_table_per_class_strategy.entity.MotorcycleEntity17"/>-->
-<!--        <mapping class="_18_inheritance_joined_strategy.entity.VehicleEntity18"/>-->
-<!--        <mapping class="_18_inheritance_joined_strategy.entity.CarEntity18"/>-->
-<!--        <mapping class="_18_inheritance_joined_strategy.entity.MotorcycleEntity18"/>-->
-<!--        <mapping class="_19_transient_persistent_detached_objects.entity.UserEntity19"/>-->
-<!--        <mapping class="_20_hql.entity.UserEntity20"/>-->
-<!--        <mapping class="_20_hql.entity.UserEntity20Backup"/>-->
-<!--        <mapping class="_21_hql_onetoone_mapping_join.entity.UserEntity21"/>-->
-<!--        <mapping class="_21_hql_onetoone_mapping_join.entity.VehicleEntity21"/>-->
-<!--        <mapping class="_22_hql_onetomany_mapping_bidirectional.entity.UserEntity22"/>-->
-<!--        <mapping class="_22_hql_onetomany_mapping_bidirectional.entity.VehicleEntity22"/>-->
-<!--        <mapping class="_24_namedQuery_namedNativeQuery_sqlNativeQuery.entity.UserEntity24"/>-->
-<!--        <mapping class="_25_criteria_api.entity.UserEntity25"/>-->
-<!--        <mapping class="_26_cache.entity.UserEntity26"/>-->
+<!--        <mapping class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.UserEntity15"/>-->
+<!--        <mapping class="_05_mappings_mappedBy_cascade._2_onetomany.bidirectional._5_onetomany_mapping_bidirectional_with_cascade.entity.VehicleEntity15"/>-->
+<!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.VehicleEntity16"/>-->
+<!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.CarEntity16"/>-->
+<!--        <mapping class="_06_inheritance._1_inheritance_single_type_strategy_default_behave.entity.MotorcycleEntity16"/>-->
+<!--        <mapping class="_06_inheritance._2_inheritance_table_per_class_strategy.entity.VehicleEntity17"/>-->
+<!--        <mapping class="_06_inheritance._2_inheritance_table_per_class_strategy.entity.CarEntity17"/>-->
+<!--        <mapping class="_06_inheritance._2_inheritance_table_per_class_strategy.entity.MotorcycleEntity17"/>-->
+<!--        <mapping class="_06_inheritance._3_inheritance_joined_strategy.entity.VehicleEntity18"/>-->
+<!--        <mapping class="_06_inheritance._3_inheritance_joined_strategy.entity.CarEntity18"/>-->
+<!--        <mapping class="_06_inheritance._3_inheritance_joined_strategy.entity.MotorcycleEntity18"/>-->
+<!--        <mapping class="_07_hql._1_hql.entity.UserEntity20"/>-->
+<!--        <mapping class="_07_hql._1_hql.entity.UserEntity20Backup"/>-->
+<!--        <mapping class="_07_hql._2_hql_onetoone_mapping_join.entity.UserEntity21"/>-->
+<!--        <mapping class="_07_hql._2_hql_onetoone_mapping_join.entity.VehicleEntity21"/>-->
+<!--        <mapping class="_07_hql._3_hql_onetomany_mapping_bidirectional.entity.UserEntity22"/>-->
+<!--        <mapping class="_07_hql._3_hql_onetomany_mapping_bidirectional.entity.VehicleEntity22"/>-->
+<!--        <mapping class="_08_namedQuery_namedNativeQuery_sqlNativeQuery.entity.UserEntity24"/>-->
+<!--        <mapping class="_09_criteria_api.entity.UserEntity25"/>-->
+<!--        <mapping class="_10_cache.entity.UserEntity26"/>-->
 
     </session-factory>
 
